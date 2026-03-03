@@ -1,0 +1,281 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|c:\\users\\jlale\\source\\repos\\apiaguapluss\\apiaguapluss\\controllers\\turnoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|solutionrelative:apiaguapluss\\controllers\\turnoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|c:\\users\\jlale\\source\\repos\\apiaguapluss\\apiaguapluss\\repositorio\\turnosql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|solutionrelative:apiaguapluss\\repositorio\\turnosql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|c:\\users\\jlale\\source\\repos\\apiaguapluss\\apiaguapluss\\repositorio\\trabajadoressql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|solutionrelative:apiaguapluss\\repositorio\\trabajadoressql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|c:\\users\\jlale\\source\\repos\\apiaguapluss\\apiaguapluss\\modelos\\turno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|solutionrelative:apiaguapluss\\modelos\\turno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|c:\\users\\jlale\\source\\repos\\apiaguapluss\\apiaguapluss\\controllers\\trabajadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|solutionrelative:apiaguapluss\\controllers\\trabajadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|c:\\users\\jlale\\source\\repos\\apiaguapluss\\apiaguapluss\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|solutionrelative:apiaguapluss\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|c:\\users\\jlale\\source\\repos\\apiaguapluss\\apiaguapluss\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|solutionrelative:apiaguapluss\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|c:\\users\\jlale\\source\\repos\\apiaguapluss\\apiaguapluss\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|solutionrelative:apiaguapluss\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|c:\\users\\jlale\\source\\repos\\apiaguapluss\\apiaguapluss\\controllers\\aguadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|solutionrelative:apiaguapluss\\controllers\\aguadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|c:\\users\\jlale\\source\\repos\\apiaguapluss\\apiaguapluss\\repositorio\\aguadoressql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|solutionrelative:apiaguapluss\\repositorio\\aguadoressql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|c:\\users\\jlale\\source\\repos\\apiaguapluss\\apiaguapluss\\controllers\\cargascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|solutionrelative:apiaguapluss\\controllers\\cargascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|c:\\users\\jlale\\source\\repos\\apiaguapluss\\apiaguapluss\\repositorio\\cargassql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|solutionrelative:apiaguapluss\\repositorio\\cargassql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|c:\\users\\jlale\\source\\repos\\apiaguapluss\\apiaguapluss\\dto\u0027s\\aguadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|solutionrelative:apiaguapluss\\dto\u0027s\\aguadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|c:\\users\\jlale\\source\\repos\\apiaguapluss\\apiaguapluss\\dto\u0027s\\cargasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|solutionrelative:apiaguapluss\\dto\u0027s\\cargasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|c:\\users\\jlale\\source\\repos\\apiaguapluss\\apiaguapluss\\dto\u0027s\\trabajadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|solutionrelative:apiaguapluss\\dto\u0027s\\trabajadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|c:\\users\\jlale\\source\\repos\\apiaguapluss\\apiaguapluss\\modelos\\carga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C075F6-7CAD-4469-9317-1E69D2A4D361}|ApiAguapluss\\ApiAguapluss.csproj|solutionrelative:apiaguapluss\\modelos\\carga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Turno.cs",
+              "DocumentMoniker": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\Modelos\\Turno.cs",
+              "RelativeDocumentMoniker": "ApiAguapluss\\Modelos\\Turno.cs",
+              "ToolTip": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\Modelos\\Turno.cs",
+              "RelativeToolTip": "ApiAguapluss\\Modelos\\Turno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T01:33:28.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TurnoSQL.cs",
+              "DocumentMoniker": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\repositorio\\TurnoSQL.cs",
+              "RelativeDocumentMoniker": "ApiAguapluss\\repositorio\\TurnoSQL.cs",
+              "ToolTip": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\repositorio\\TurnoSQL.cs",
+              "RelativeToolTip": "ApiAguapluss\\repositorio\\TurnoSQL.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAADwv9UAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T00:09:05.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TrabajadoresController.cs",
+              "DocumentMoniker": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\Controllers\\TrabajadoresController.cs",
+              "RelativeDocumentMoniker": "ApiAguapluss\\Controllers\\TrabajadoresController.cs",
+              "ToolTip": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\Controllers\\TrabajadoresController.cs",
+              "RelativeToolTip": "ApiAguapluss\\Controllers\\TrabajadoresController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T22:13:33.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AguadoresController.cs",
+              "DocumentMoniker": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\Controllers\\AguadoresController.cs",
+              "RelativeDocumentMoniker": "ApiAguapluss\\Controllers\\AguadoresController.cs",
+              "ToolTip": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\Controllers\\AguadoresController.cs",
+              "RelativeToolTip": "ApiAguapluss\\Controllers\\AguadoresController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T00:02:51.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CargasSQL.cs",
+              "DocumentMoniker": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\repositorio\\CargasSQL.cs",
+              "RelativeDocumentMoniker": "ApiAguapluss\\repositorio\\CargasSQL.cs",
+              "ToolTip": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\repositorio\\CargasSQL.cs",
+              "RelativeToolTip": "ApiAguapluss\\repositorio\\CargasSQL.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAkwHgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T23:41:28.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\Program.cs",
+              "RelativeDocumentMoniker": "ApiAguapluss\\Program.cs",
+              "ToolTip": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\Program.cs",
+              "RelativeToolTip": "ApiAguapluss\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T00:18:37.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TurnosController.cs",
+              "DocumentMoniker": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\Controllers\\TurnosController.cs",
+              "RelativeDocumentMoniker": "ApiAguapluss\\Controllers\\TurnosController.cs",
+              "ToolTip": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\Controllers\\TurnosController.cs",
+              "RelativeToolTip": "ApiAguapluss\\Controllers\\TurnosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T00:18:47.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TrabajadoresSQL.cs",
+              "DocumentMoniker": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\repositorio\\TrabajadoresSQL.cs",
+              "RelativeDocumentMoniker": "ApiAguapluss\\repositorio\\TrabajadoresSQL.cs",
+              "ToolTip": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\repositorio\\TrabajadoresSQL.cs",
+              "RelativeToolTip": "ApiAguapluss\\repositorio\\TrabajadoresSQL.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCoAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T21:48:26.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ApiAguapluss\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ApiAguapluss\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-02T23:53:02.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiAguapluss\\appsettings.json",
+              "ToolTip": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\appsettings.json",
+              "RelativeToolTip": "ApiAguapluss\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-24T22:15:18.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CargasController.cs",
+              "DocumentMoniker": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\Controllers\\CargasController.cs",
+              "RelativeDocumentMoniker": "ApiAguapluss\\Controllers\\CargasController.cs",
+              "ToolTip": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\Controllers\\CargasController.cs",
+              "RelativeToolTip": "ApiAguapluss\\Controllers\\CargasController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T23:40:36.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AguadoresSQL.cs",
+              "DocumentMoniker": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\repositorio\\AguadoresSQL.cs",
+              "RelativeDocumentMoniker": "ApiAguapluss\\repositorio\\AguadoresSQL.cs",
+              "ToolTip": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\repositorio\\AguadoresSQL.cs",
+              "RelativeToolTip": "ApiAguapluss\\repositorio\\AguadoresSQL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T23:50:12.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AguadorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\DTO\u0027s\\AguadorDTO.cs",
+              "RelativeDocumentMoniker": "ApiAguapluss\\DTO\u0027s\\AguadorDTO.cs",
+              "ToolTip": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\DTO\u0027s\\AguadorDTO.cs",
+              "RelativeToolTip": "ApiAguapluss\\DTO\u0027s\\AguadorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T23:46:55.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TrabajadorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\DTO\u0027s\\TrabajadorDTO.cs",
+              "RelativeDocumentMoniker": "ApiAguapluss\\DTO\u0027s\\TrabajadorDTO.cs",
+              "ToolTip": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\DTO\u0027s\\TrabajadorDTO.cs",
+              "RelativeToolTip": "ApiAguapluss\\DTO\u0027s\\TrabajadorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T22:27:27.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CargasDTO.cs",
+              "DocumentMoniker": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\DTO\u0027s\\CargasDTO.cs",
+              "RelativeDocumentMoniker": "ApiAguapluss\\DTO\u0027s\\CargasDTO.cs",
+              "ToolTip": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\DTO\u0027s\\CargasDTO.cs",
+              "RelativeToolTip": "ApiAguapluss\\DTO\u0027s\\CargasDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T00:48:56.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Carga.cs",
+              "DocumentMoniker": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\Modelos\\Carga.cs",
+              "RelativeDocumentMoniker": "ApiAguapluss\\Modelos\\Carga.cs",
+              "ToolTip": "C:\\Users\\jlale\\source\\repos\\ApiAguapluss\\ApiAguapluss\\Modelos\\Carga.cs",
+              "RelativeToolTip": "ApiAguapluss\\Modelos\\Carga.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T00:01:25.996Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
