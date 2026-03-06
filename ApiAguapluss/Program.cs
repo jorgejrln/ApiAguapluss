@@ -12,6 +12,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<AcessoSQL>(); 
 builder.Services.AddScoped<TurnoSQL>();
 builder.Services.AddScoped<AguadoresSQL>();
+builder.Services.AddScoped<RolesSQL>();
+builder.Services.AddScoped<UsuariosSQL>();
 builder.Services.AddScoped<TrabajadoresSQL>();
 
 builder.Services.AddScoped<CargasSQL>();

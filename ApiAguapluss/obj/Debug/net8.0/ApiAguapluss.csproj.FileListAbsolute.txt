@@ -40,3 +40,4 @@ C:\Users\jlale\source\repos\ApiAguapluss\ApiAguapluss\bin\Debug\net8.0\runtimes\
 C:\Users\jlale\source\repos\ApiAguapluss\ApiAguapluss\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
 C:\Users\jlale\source\repos\ApiAguapluss\ApiAguapluss\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\jlale\source\repos\ApiAguapluss\ApiAguapluss\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\jlale\source\repos\ApiAguapluss\ApiAguapluss\obj\Debug\net8.0\ApiAguapluss.sourcelink.json

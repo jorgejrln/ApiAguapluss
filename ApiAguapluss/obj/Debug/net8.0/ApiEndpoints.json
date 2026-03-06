@@ -186,6 +186,42 @@
     ]
   },
   {
+    "ContainingType": "ApiAguapluss.Controllers.RolesController",
+    "Method": "GetRoles",
+    "RelativePath": "roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiAguapluss.Modelos.Rol, ApiAguapluss, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiAguapluss.Controllers.RolesController",
+    "Method": "InsertarRol",
+    "RelativePath": "roles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "r",
+        "Type": "ApiAguapluss.DTO_s.RolDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ApiAguapluss.Controllers.TrabajadoresController",
     "Method": "DameTrabajadores",
     "RelativePath": "Trabajadores",
@@ -408,6 +444,42 @@
     "ReturnTypes": [
       {
         "Type": "ApiAguapluss.Modelos.Turno",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiAguapluss.Controllers.UsuariosController",
+    "Method": "InsertarUsuario",
+    "RelativePath": "Usuarios",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "r",
+        "Type": "ApiAguapluss.DTO_s.UsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAguapluss.Controllers.UsuariosController",
+    "Method": "DameUsuarios",
+    "RelativePath": "Usuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiAguapluss.Modelos.Usuario, ApiAguapluss, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiAguapluss")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c787b1f2e6a41cb4c4655bb0398bc1ebc7146fa6")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiAguapluss")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiAguapluss")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

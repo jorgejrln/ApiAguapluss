@@ -202,6 +202,9 @@ namespace ApiAguapluss.repositorio
 
         }
 
-
+        internal async Task insertarUsuario(UsuarioDTO u)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
