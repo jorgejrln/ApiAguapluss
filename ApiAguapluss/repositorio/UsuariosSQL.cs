@@ -94,5 +94,43 @@ namespace ApiAguapluss.repositorio
 
         }
 
+        public async Task<Usuario> validarLogin(string usuario, string password)
+        {
+
+            SqlConnection sqlConnection = conexion();
+            SqlCommand Comm = null;
+            Usuario user = null;
+
+
+            {
+                await sqlConnection.OpenAsync();
+
+                Comm = sqlConnection.CreateCommand();
+                Comm.CommandText = "dbo.LoginUsuario";
+                Comm.CommandType = CommandType.StoredProcedure;
+
+                Comm.Parameters.AddWithValue("@usuario", usuario);
+                Comm.Parameters.AddWithValue("@password", password);
+
+                SqlDataReader reader = await Comm.ExecuteReaderAsync();
+
+                if (reader.Read())
+                {
+                    user = new Usuario()
+                    {
+                        idUsuario = Convert.ToInt32(reader["idUsuario"]),
+                        usuario = reader["usuario"].ToString(),
+                        idTrabajador = Convert.ToInt32(reader["idTrabajador"]),
+                        idRol= Convert.ToInt32(reader["idRol"]),
+                        rol = reader["nombreRol"].ToString()
+                    };
+                }
+            }
+
+            return user;
+        }
+
+    
+
     }
 }

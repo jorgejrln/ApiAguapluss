@@ -488,5 +488,26 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "ApiAguapluss.Controllers.UsuariosController",
+    "Method": "Login",
+    "RelativePath": "Usuarios/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

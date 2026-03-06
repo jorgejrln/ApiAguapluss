@@ -35,5 +35,18 @@ namespace ApiAguapluss.Controllers
             return usuario;
         }
 
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(string usuario, string password)
+        {
+            var user = await repositorio.validarLogin(usuario, password);
+
+            if (user == null)
+            {
+                return Unauthorized("Usuario o contraseña incorrectos");
+            }
+
+            return Ok(user);
+        }
+
     }
 }
