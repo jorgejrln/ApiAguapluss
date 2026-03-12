@@ -1,4 +1,5 @@
-﻿using ApiAguapluss.DTO_s;
+﻿using System.Data.SqlClient;
+using ApiAguapluss.DTO_s;
 using ApiAguapluss.Modelos;
 using ApiAguapluss.repositorio;
 using Microsoft.AspNetCore.Http;
@@ -18,22 +19,31 @@ namespace ApiAguapluss.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> CrearTurno(TurnoDTO t) {
-
-            TurnoDTO turno = new TurnoDTO
+        public async Task<ActionResult> CrearTurno([FromBody] TurnoModeloEmpezar t)
+        {
+            try
             {
-                fecha = DateTime.Now,
-                idTrabajador = t.idTrabajador,
-                lecIn = t.lecIn,
-                lecFin = t.lecFin,
-                total = t.total,
-                fondo = t.fondo,
-                corte = t.corte,
-            };
+                TurnoModeloEmpezar turno = new TurnoModeloEmpezar
+                {
+                    fecha = DateTime.Now,
+                    idTrabajador = t.idTrabajador,
+                    lecIn = t.lecIn,
+                    fondo = t.fondo,
 
+                };
 
-            await this.repositorio.CrearTurno(turno);
-            return Ok(turno);
+                await this.repositorio.CrearTurno(turno);
+
+                return Ok(turno);
+            }
+            catch (SqlException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, "Error al crear el turno");
+            }
         }
 
         [HttpGet]
@@ -82,12 +92,27 @@ namespace ApiAguapluss.Controllers
         }
 
         [HttpGet("Ultimo")]
-        public async Task<Turno>UltimoTurno()
+        public async Task<Turno> UltimoTurno()
         {
             var turno = await repositorio.DameUltimoTurno();
             return turno;
 
         }
 
+
+        [HttpPut("CerrarTurno")]
+        public async Task<ActionResult> CerrarTurno(TurnoTerminar t)
+        {
+            await this.repositorio.CerrarTurno(t);
+            return Ok();
+        }
+
+
+        [HttpGet("Ultimos3")]
+        public async Task<IEnumerable<Turno>> Ultimos3Turnos() 
+        {
+            var turnos = await repositorio.Dame3UltimosTurnos();
+            return turnos;
+        }
     }
 }

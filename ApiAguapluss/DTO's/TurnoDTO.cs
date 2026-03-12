@@ -10,5 +10,8 @@
         public int fondo { get; set; }
         public int corte { get; set; }
 
+        public DateTime fechaFin { get; set; }
+        public bool activo { get; set; }
+
     }
 }

@@ -308,7 +308,7 @@
     "Parameters": [
       {
         "Name": "t",
-        "Type": "ApiAguapluss.DTO_s.TurnoDTO",
+        "Type": "ApiAguapluss.DTO_s.TurnoModeloEmpezar",
         "IsRequired": true
       }
     ],
@@ -419,6 +419,22 @@
   },
   {
     "ContainingType": "ApiAguapluss.Controllers.TurnosController",
+    "Method": "CerrarTurno",
+    "RelativePath": "Turnos/CerrarTurno",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "t",
+        "Type": "ApiAguapluss.DTO_s.TurnoTerminar",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAguapluss.Controllers.TurnosController",
     "Method": "TurnosTrabajador",
     "RelativePath": "Turnos/trabajador/{id}",
     "HttpMethod": "GET",
@@ -444,6 +460,26 @@
     "ReturnTypes": [
       {
         "Type": "ApiAguapluss.Modelos.Turno",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiAguapluss.Controllers.TurnosController",
+    "Method": "Ultimos3Turnos",
+    "RelativePath": "Turnos/Ultimos3",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiAguapluss.Modelos.Turno, ApiAguapluss, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

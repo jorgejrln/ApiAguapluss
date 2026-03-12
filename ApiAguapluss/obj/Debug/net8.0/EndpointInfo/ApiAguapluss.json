@@ -569,17 +569,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/TurnoDTO"
+                "$ref": "#/components/schemas/TurnoModeloEmpezar"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/TurnoDTO"
+                "$ref": "#/components/schemas/TurnoModeloEmpezar"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/TurnoDTO"
+                "$ref": "#/components/schemas/TurnoModeloEmpezar"
               }
             }
           }
@@ -805,6 +805,75 @@
               "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Turno"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Turnos/CerrarTurno": {
+      "put": {
+        "tags": [
+          "Turnos"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TurnoTerminar"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TurnoTerminar"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TurnoTerminar"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Turnos/Ultimos3": {
+      "get": {
+        "tags": [
+          "Turnos"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Turno"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Turno"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Turno"
+                  }
                 }
               }
             }
@@ -1108,11 +1177,13 @@
           },
           "lecFin": {
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "nullable": true
           },
           "total": {
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "nullable": true
           },
           "fondo": {
             "type": "integer",
@@ -1120,7 +1191,16 @@
           },
           "corte": {
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "nullable": true
+          },
+          "fechaFin": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "activo": {
+            "type": "boolean"
           },
           "nombreTrabajador": {
             "type": "string",
@@ -1160,6 +1240,63 @@
           "corte": {
             "type": "integer",
             "format": "int32"
+          },
+          "fechaFin": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "activo": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TurnoModeloEmpezar": {
+        "type": "object",
+        "properties": {
+          "fecha": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "idTrabajador": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lecIn": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fondo": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TurnoTerminar": {
+        "type": "object",
+        "properties": {
+          "lecFin": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "total": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "corte": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fechaFin": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "activo": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false
