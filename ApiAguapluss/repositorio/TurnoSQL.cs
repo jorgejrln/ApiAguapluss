@@ -232,7 +232,7 @@ namespace ApiAguapluss.repositorio
         {
             SqlConnection sqlConnection = conexion();
             SqlCommand Comm = null;
-         
+
             List<Turno> turnos = new List<Turno>();
             try
             {
@@ -242,30 +242,61 @@ namespace ApiAguapluss.repositorio
                 Comm.CommandText = "ObtenerTurnosPorTrabajador";
                 Comm.CommandType = CommandType.StoredProcedure;
                 Comm.Parameters.Add("@idTrabajador", SqlDbType.Int).Value = id;
+
                 SqlDataReader reader = await Comm.ExecuteReaderAsync();
+
                 while (await reader.ReadAsync())
                 {
                     Turno t = new Turno
                     {
-                        id = Convert.ToInt32(reader["idTurno"]),
+                        id = Convert.ToInt32(reader["id"]), 
                         idTrabajador = Convert.ToInt32(reader["idTrabajador"]),
+
                         fecha = reader.IsDBNull(reader.GetOrdinal("fecha"))
-                                                                    ? null
-        : reader.GetDateTime(reader.GetOrdinal("fecha")),
-                        lecIn = Convert.ToInt32(reader["LecIN"]),
-                        lecFin = Convert.ToInt32(reader["LecFIN"]),
-                        total = Convert.ToInt32(reader["total"]),
-                        fondo = Convert.ToInt32(reader["fondo"]),
-                        corte = Convert.ToInt32(reader["corte"])
+                            ? (DateTime?)null
+                            : reader.GetDateTime(reader.GetOrdinal("fecha")),
+
+                        lecIn = reader.IsDBNull(reader.GetOrdinal("lecIn"))
+    ? 0
+    : Convert.ToInt32(reader["lecIn"]),
+
+                        lecFin = reader.IsDBNull(reader.GetOrdinal("lecFin"))
+    ? 0
+    : Convert.ToInt32(reader["lecFin"]),
+
+                        total = reader.IsDBNull(reader.GetOrdinal("total"))
+    ? 0
+    : Convert.ToInt32(reader["total"]),
+
+                        fondo = reader.IsDBNull(reader.GetOrdinal("fondo"))
+    ? 0
+    : Convert.ToInt32(reader["fondo"]),
+
+                        corte = reader.IsDBNull(reader.GetOrdinal("corte"))
+    ? 0
+    : Convert.ToInt32(reader["corte"]),
+
+                        fechaFin = reader.IsDBNull(reader.GetOrdinal("fechaFin"))
+                            ? (DateTime?)null
+                            : reader.GetDateTime(reader.GetOrdinal("fechaFin")),
+
+                        activo = reader.IsDBNull(reader.GetOrdinal("activo"))
+                            ? false
+                            : Convert.ToBoolean(reader["activo"]),
+
+                        nombreTrabajador = reader.IsDBNull(reader.GetOrdinal("nombreTrabajador"))
+                            ? null
+                            : reader["nombreTrabajador"].ToString()
                     };
 
                     turnos.Add(t);
                 }
+
                 reader.Close();
             }
             catch (Exception ex)
             {
-                throw new Exception("se produjo un error al obtener los turnos" + ex.ToString());
+                throw new Exception("Se produjo un error al obtener los turnos: " + ex.Message);
             }
             finally
             {
@@ -273,8 +304,8 @@ namespace ApiAguapluss.repositorio
                 sqlConnection.Close();
                 sqlConnection.Dispose();
             }
-            return turnos;
 
+            return turnos;
         }
         public async Task<Turno> DameUltimoTurno()
         {
@@ -315,6 +346,10 @@ namespace ApiAguapluss.repositorio
                         corte = reader.IsDBNull(reader.GetOrdinal("corte"))
                             ? 0
                             : reader.GetInt32(reader.GetOrdinal("corte")),
+
+                        activo = reader.IsDBNull(reader.GetOrdinal("activo"))
+                            ? false
+                            : Convert.ToBoolean(reader["activo"]),
 
                         nombreTrabajador = reader["NombreTrabajador"].ToString()
                     };
